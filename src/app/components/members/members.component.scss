@@ -1,0 +1,44 @@
+@import '_variables.scss';
+
+.members_count{
+    border-top: $border-color solid 1px;
+    border-bottom: $border-color solid 1px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    display: block;
+}
+
+.total{
+    margin-left: -500px;
+    padding-top: 10px;
+}
+
+.search{
+    width: 100%;
+    margin-bottom: 30px;
+    
+.row input, button{
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+}
+
+button{
+    border: none;
+    color: $font-color;
+    outline: none;
+}
+
+.filter-btn {
+    background-color: $btn-color;
+    margin-bottom: 10px;
+}
+
+

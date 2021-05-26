@@ -1,0 +1,47 @@
+<!--list of icons in the members.component.ts-->
+<div class="col search">
+    <div class="row">
+        <div class="col-md-9"><input [(ngModel)]='name' placeholder="Enter the name"></div>
+        <div class="col-md-3"> <button class="btn btn-outline-success filter-btn" type="button" (click)="filter()">Search</button></div>
+</div>
+</div>
+
+<div class="members_count">
+    <div class="row">
+        <div class="col-md-6">
+            <div *ngFor="let icon of icons">
+                <div *ngIf="icon.house==houseName">
+                    <img class="icons" [src]="icon.image">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 total">
+            <h4>Total of {{houseName}} members: {{ char.length }}</h4>
+        </div>
+       
+    </div>
+</div>
+
+<!--show the members in each house-->
+
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-3" *ngFor="let character of char ">
+        <div class="card">
+            <div class="image">
+                <a [routerLink]="['/character-details', character.url]">
+                    <img [src]="character.image" [alt]="character.name" class="card-img-top" />
+                </a>
+            </div>
+            <div class="card-inner">
+                <div class="header">
+
+                    <h4>{{character.name}}</h4>
+                    <small class="text-muted">{{character.ancestry}}</small><br>
+
+                    <small class="text-muted">{{character.house }}</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

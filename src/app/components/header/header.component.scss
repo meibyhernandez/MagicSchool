@@ -1,0 +1,62 @@
+@import '_variables.scss';
+
+img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+    
+}
+
+.iconsHouse {
+    width: 30px;
+}
+
+.navbar{
+    margin-top: 20px;
+    border-bottom: $font-color solid 1px;
+    border-top: $font-color solid 1px;
+   
+}
+
+span .navbar-toggler-icon{
+    color: $menu-color-btn;
+}
+
+.nav-link, .nav-item{
+    color: $font-color;
+    text-align: center;
+    height: 30px;
+    border-left: $border-color solid 1px;
+    border-right: $border-color solid 1px;
+    align-content: center;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phrase{
+    
+    padding: 5px 0 0px 0px;
+}
+
+.phrase p{
+   text-align: center;
+   padding: 5px 0 10px 0px;
+   font-family: $font-pharapgraph;
+   text-indent: 10px;
+   letter-spacing: 1px;
+}
+
+button, a{
+    color: $menu-color-btn;
+}
+
+button:hover{
+    color: $menu-hover-color;
+}
