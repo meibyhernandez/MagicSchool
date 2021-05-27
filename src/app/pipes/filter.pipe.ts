@@ -4,7 +4,7 @@ import { Character } from '../character.model';
 
 @Pipe({
   name: 'filter'
-})
+}) 
 
 export class FilterPipe implements PipeTransform {
 

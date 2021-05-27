@@ -13,7 +13,7 @@ import { CharactersComponent } from './components/characters/characters.componen
 import { MembersComponent } from './components/members/members.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { SortPipe } from './pipes/sort.pipe';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'; 
 
 
 

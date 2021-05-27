@@ -3,7 +3,7 @@ import { CharactersComponent } from "./components/characters/characters.componen
 import { MembersComponent } from './components/members/members.component';
 
 const APP_ROUTES: Routes = [
-    {
+    { 
         path: '',
         redirectTo: 'characters',
         pathMatch: 'full',

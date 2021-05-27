@@ -26,7 +26,7 @@ export class CharactersComponent implements OnInit {
     this.searchService.getCharacters().subscribe(
       data=>{this.char=data}
     );
-    
+     
 
 //changes the direction in the sroting 
 }
