@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Character } from "../character.model";
 import { Observable } from "rxjs";
-import {  map} from 'rxjs/operators';
+import {  delay, map} from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 
 @Injectable
@@ -22,7 +22,7 @@ export class SearchingService{
   
 
   getCharacters(): Observable<Character[]> {
-    return this.http.get<Character[]>(this.urlChar);
+    return this.http.get<Character[]>(this.urlChar).pipe(delay(2000));
   }
 
  
