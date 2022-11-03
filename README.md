@@ -1,4 +1,10 @@
-# PruebaNS
+
+
+
+
+Basic angular SPA solution with angular making a basic connection to an endpoint. Listing the students ad basic search 
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 
