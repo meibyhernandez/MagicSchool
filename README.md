@@ -2,8 +2,9 @@
 
 
 
-Basic angular SPA solution with angular making a basic connection to an endpoint. Listing the students ad basic search 
+Basic angular SPA solution with angular making a basic connection to an endpoint. Listing the students and basic search 
 
+![Capture](https://user-images.githubusercontent.com/52585899/199919645-08c5ea8d-3efc-4dbf-b159-268c2846c908.JPG)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
